@@ -1,5 +1,5 @@
 ---
-framework: mocha # test
+framework: mocha
 postmerge:
   pattern:
     - "./test/**/*.spec.ts"
@@ -12,4 +12,5 @@ prerun:
   - npm ci
 postrun:
   - node --version
+  - echo finished
 version: 2.0
