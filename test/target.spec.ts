@@ -22,6 +22,8 @@ describe('Targets', () => {
       expect(getTarget(input).toString()).to.equal(expected)
     })
   })
+  
+  console.log('something');
 
   it('should stringify and toString', () => {
     expect(JSON.stringify(getTarget(process))).to.equal(`"${getTarget(process)}"`)
