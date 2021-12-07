@@ -23,7 +23,6 @@ describe('Targets', () => {
     })
   })
   
-   console.log("check issue")
   console.log("check issue")
   console.log("check issue")
   console.log("check issue")
